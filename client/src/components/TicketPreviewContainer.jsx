@@ -4,7 +4,7 @@ const TicketPreviewContainer = ({ ticket, date }) => {
   return (
     <div className="bg-white mx-2 my-2 p-2 shadow-lg w-full mx-auto rounded-lg">
       <div className="flex items-center">
-        <h4 className="text-left text-lg px-2">{ticket.title}</h4>
+        <h4 className="text-left px-2 font-bold">{ticket.title}</h4>
         <span className="text-gray-500 italic text-xs">#{ticket.id}</span>
       </div>
       <div className="flex items-center px-2">

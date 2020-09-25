@@ -1,0 +1,17 @@
+.card {
+  height: 320px !important;
+  padding: 4% !important;
+  margin-top: 5% !important;
+}
+
+.label {
+  text-align: left !important;
+}
+
+.ui .container {
+  margin-left: 0 !important;
+}
+
+/* // input {
+//   width: 500px;
+// } */

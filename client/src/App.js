@@ -16,8 +16,13 @@ function App() {
 
   return (
     <div className="App">
-      <Sidebar />
-      <main></main>
+      <main>
+        <Route exact path="/" component={Homepage} />
+        {/* Need to make Dynamic for multiple companies, based off company id */}
+        <Route exact path="/company_portal" component={CompanyPortal} />
+        <Route path="/company/" component={Sidebar} />
+        {/* <Sidebar /> */}
+      </main>
     </div>
   );
 }

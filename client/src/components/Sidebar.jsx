@@ -22,7 +22,7 @@ import { SupervisedUserCircle } from "@material-ui/icons";
 import { FaTicketAlt } from "react-icons/fa";
 
 import { Switch, Route } from "react-router-dom";
-import { Homepage, CompanyPortal, UserPortal } from "../pages";
+import { Homepage, CompanyPortal, UserPortal, Tickets } from "../pages";
 
 const drawerWidth = 240;
 
@@ -174,14 +174,15 @@ const Sidebar = () => {
       <main className={classes.content}>
         <div className={classes.toolbar} />
         <Switch>
-          <Route exact path="/company_portal" component={CompanyPortal} />
+          {/* Need to make Dynamic for multiple companies, based off company id */}
           <Route
             exact
             path="/company/user_portal"
             // component={isAuthenticated ? UserPortal : CompanyPortal}
             component={UserPortal}
           />
-          <Route exact path="/" component={Homepage} />
+          {/* Need to make Dynamic for multiple companies, based off company id */}
+          <Route exact path="/company/tickets" component={Tickets} />
         </Switch>
       </main>
     </div>

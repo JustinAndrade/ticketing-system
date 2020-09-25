@@ -56,7 +56,12 @@ const UserPortal = () => {
         <h2 className="text-2xl font-bold text-left m-4">Welcome User,</h2>
         <div className="mx-4">
           <div className="text-gray-800">
-            <h3 className="text-xl text-left m-4 font-bold">Open Tickets</h3>
+            <div className="flex items-center justify-between">
+              <h3 className="text-xl text-left m-4 font-bold">Open Tickets</h3>
+              <span className="cursor-pointer text-purple-600 font-bold">
+                view all
+              </span>
+            </div>
             <div className="">
               {tickets.map((ticket) => {
                 let date = Date(ticket.age);
@@ -68,7 +73,14 @@ const UserPortal = () => {
             </div>
           </div>
           <div className="text-gray-800">
-            <h3 className="text-xl text-left m-4 font-bold">Recent Tickets</h3>
+            <div className="flex items-center justify-between">
+              <h3 className="text-xl text-left m-4 font-bold">
+                Recent Tickets
+              </h3>
+              <span className="cursor-pointer text-purple-600 font-bold">
+                view all
+              </span>
+            </div>
             {tickets.map((ticket) => {
               let date = Date(ticket.age);
               date = date.split("00");
@@ -76,9 +88,14 @@ const UserPortal = () => {
             })}
           </div>
           <div className="text-gray-800">
-            <h3 className="text-xl text-left m-4 font-bold">
-              High Priority Tickets
-            </h3>
+            <div className="flex items-center justify-between">
+              <h3 className="text-xl text-left m-4 font-bold">
+                High Priority Tickets
+              </h3>
+              <span className="cursor-pointer text-purple-600 font-bold">
+                view all
+              </span>
+            </div>
             {tickets.map((ticket) => {
               let date = Date(ticket.age);
               date = date.split("00");
