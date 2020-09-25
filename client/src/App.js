@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import { CompanyPortal, UserPortal, Homepage } from "./pages/";
 
 import "./App.css";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   const isAuthenticated = useSelector((state) => state.isAuthenticated);
@@ -15,18 +16,8 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <main>
-        <Switch>
-          <Route exact path="/company_portal" component={CompanyPortal} />
-          <Route
-            exact
-            path="/company/user_portal"
-            component={isAuthenticated ? UserPortal : CompanyPortal}
-          />
-          <Route exact path="/" component={Homepage} />
-        </Switch>
-      </main>
+      <Sidebar />
+      <main></main>
     </div>
   );
 }

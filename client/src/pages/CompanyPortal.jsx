@@ -31,7 +31,6 @@ const CompanyPortal = (props) => {
   useEffect(() => {
     const authToken = localStorage.getItem("auth");
     if (authToken) {
-      console.log(isAuthenticated, "s");
     }
   });
 

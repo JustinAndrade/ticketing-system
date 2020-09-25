@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "username": "jandrade",
+    "first_name": "Justin",
+    "last_name": "Andrade",
+    "email": "j.andrade.john@gmail.com",
+    "title": "CEO",
+    "twitter": "JusCoding",
+    "github": "JustinAndrade",
+    "linkedin": "https://www.linkedin.com/in/justin-andrade/"
+  },
+  {
+    "id": 2,
+    "username": "aalfred",
+    "first_name": "Austen",
+    "last_name": "Alfred",
+    "email": "austen@lamdaschool.com",
+    "title": "CTO",
+    "twitter": "Austen",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/austen/"
+  },
+  {
+    "id": 3,
+    "username": "bengriff",
+    "first_name": "Benjamin",
+    "last_name": "Griffin",
+    "email": "bengriff@gmail.com",
+    "title": "Tech Lead",
+    "twitter": "BenGriff",
+    "github": "benjamin",
+    "linkedin": "https://www.linkedin.com/in/benjamin/"
+  },
+  {
+    "id": 4,
+    "username": "pgonzalez",
+    "first_name": "Pedro",
+    "last_name": "Gonzalez",
+    "email": "pgonzalez@gmail.com",
+    "title": "UI/UX",
+    "twitter": "pgonzalez",
+    "github": "pgonzalez",
+    "linkedin": "https://www.linkedin.com/in/pgonzalez/"
+  },
+  {
+    "id": 5,
+    "username": "maruchan21",
+    "first_name": "Manuel",
+    "last_name": "Garcia",
+    "email": "maruchan21@gmail.com",
+    "title": "Senior Software Engineer",
+    "twitter": "maruchan21",
+    "github": "maruchan21",
+    "linkedin": "https://www.linkedin.com/in/maruchan21/"
+  },
+  {
+    "id": 6,
+    "username": "reynolds84",
+    "first_name": "Ryan",
+    "last_name": "Reynolds",
+    "email": "j.Reynolds.john@gmail.com",
+    "title": "Brand Ambassador",
+    "twitter": "JusCoding",
+    "github": "RyanReynolds",
+    "linkedin": "https://www.linkedin.com/in/Ryan-Reynolds/"
+  },
+  {
+    "id": 7,
+    "username": "therock",
+    "first_name": "Dwayne",
+    "last_name": "Johnson",
+    "email": "dwayne.johnson@gmail.com",
+    "title": "Brand Ambassador",
+    "twitter": "therock",
+    "github": "",
+    "linkedin": ""
+  },
+  {
+    "id": 8,
+    "username": "champagnepapi",
+    "first_name": "Aubrey",
+    "last_name": "Graham",
+    "email": "drake@ovo.com",
+    "title": "Software Engineer",
+    "twitter": "drake",
+    "github": "",
+    "linkedin": ""
+  },
+  {
+    "id": 9,
+    "username": "petewentzel",
+    "first_name": "Peter",
+    "last_name": "Wentz",
+    "email": "p.wentz@gmail.com",
+    "title": "Software Engineer",
+    "twitter": "peterwentz",
+    "github": "",
+    "linkedin": ""
+  },
+  {
+    "id": 10,
+    "username": "zuckerman",
+    "first_name": "Mark",
+    "last_name": "Zuckerburg",
+    "email": "zucks@facebook.com",
+    "title": "Software Engineer",
+    "twitter": "facebook",
+    "github": "",
+    "linkedin": ""
+  },
+  {
+    "id": 11,
+    "username": "jandrade",
+    "first_name": "Justin",
+    "last_name": "Andrade",
+    "email": "j.andrade.john@gmail.com",
+    "title": "CEO",
+    "twitter": "JusCoding",
+    "github": "JustinAndrade",
+    "linkedin": "https://www.linkedin.com/in/justin-andrade/"
+  },
+  {
+    "id": 12,
+    "username": "aalfred",
+    "first_name": "Austen",
+    "last_name": "Alfred",
+    "email": "austen@lamdaschool.com",
+    "title": "CTO",
+    "twitter": "Austen",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/austen/"
+  },
+  {
+    "id": 13,
+    "username": "bengriff",
+    "first_name": "Benjamin",
+    "last_name": "Griffin",
+    "email": "bengriff@gmail.com",
+    "title": "Tech Lead",
+    "twitter": "BenGriff",
+    "github": "benjamin",
+    "linkedin": "https://www.linkedin.com/in/benjamin/"
+  },
+  {
+    "id": 14,
+    "username": "pgonzalez",
+    "first_name": "Pedro",
+    "last_name": "Gonzalez",
+    "email": "pgonzalez@gmail.com",
+    "title": "UI/UX",
+    "twitter": "pgonzalez",
+    "github": "pgonzalez",
+    "linkedin": "https://www.linkedin.com/in/pgonzalez/"
+  },
+  {
+    "id": 15,
+    "username": "maruchan21",
+    "first_name": "Manuel",
+    "last_name": "Garcia",
+    "email": "maruchan21@gmail.com",
+    "title": "Senior Software Engineer",
+    "twitter": "maruchan21",
+    "github": "maruchan21",
+    "linkedin": "https://www.linkedin.com/in/maruchan21/"
+  }
+]
